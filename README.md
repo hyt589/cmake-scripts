@@ -52,7 +52,7 @@ Example:
 vcpkg_add(NAME opencv) # adds opencv package as a dependency in vcpkg.json
 ```
 
-`vcpkg_install()` Installs all the dependencies specified in the manifest file. A triplet needs to be provided.
+`vcpkg_install()` Installs all the dependencies specified in the manifest file. A triplet needs to be provided. This is not necessary if `CMAKE_TOOLCHAIN_FILE` is already set to `vcpkg.cmake`, as CMake would automatically trigger the installation process.
 
 Example:
 

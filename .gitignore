@@ -1,0 +1,9 @@
+*
+
+!README.md
+
+!.gitignore
+
+!cmake
+!cmake/**
+
